@@ -9,4 +9,4 @@
 
 # Set-up
 ### 1) Install all the necessary libraries (see the first cells in the Jupyter Notebook)
-### 2) Download the dataset
+### 2) Download the dataset (https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification/code)
