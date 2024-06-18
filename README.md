@@ -1,4 +1,5 @@
 # Musical Chord Classification
+![Piano Keys](images/piano_keys.jpg)
 
 ## Project Overview
 This project aims to classify musical chords using various machine learning models, including a Convolutional Neural Network (CNN). The dataset consists of features extracted from audio files, representing different musical chords.
