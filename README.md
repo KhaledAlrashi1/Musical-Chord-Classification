@@ -11,7 +11,7 @@ This project aims to classify musical chords using various machine learning mode
 
 ---
 ## Dataset
-The dataset consist of major and minor chords as audio files 
+The dataset consist of major and minor chords stored as audio files 
 ([Download Dataset](https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification/data))
 
 ---
@@ -31,6 +31,7 @@ The dataset consist of major and minor chords as audio files
 - Hyperparameter tuning was performed to optimize model performance. The Random Forest Classifer was the top performing model; therefore, we only performed a hyperparamter tuning on it.
 - Out of curiosity, we also developed a CNN (deep learning model) to see how well it would perform
 
+---
 ## Results
 - The Random Forest Classifier perofrmed (95%) slightly better the CNN (94.6%)
 
