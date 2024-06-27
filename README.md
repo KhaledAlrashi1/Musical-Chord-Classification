@@ -35,10 +35,13 @@ The dataset consist of major and minor chords as audio files
 - The Random Forest Classifier perofrmed (95%) slightly better the CNN (94.6%)
 
 ### Confusion Matrix
-![CNN Confusion Matrix](images/cnn_confusion_matrix.png)
 ![RF Confusion Matrix](images/rf_confusion_matrix.png)
 
+---
+### ROC
+![RF Percision Recall Curves](images/rf_percision_recall_curves.png)
 
+---
 ## Setup and Installation
 1. Clone the repository:
    ```bash
