@@ -1,4 +1,4 @@
-# Musical Chord Classification
+# Musical Chord Classifier
 ---
 ![Piano Keys](images/piano_keys.jpg)
 
