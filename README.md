@@ -29,11 +29,12 @@ The dataset consist of major and minor chords stored as audio files
 ## Models
 - Various models were trained, including Logistic Regression, K-Neighbors Classifier, Decision Tree, Random Forest.
 - Hyperparameter tuning was performed to optimize model performance. The Random Forest Classifer was the top performing model; therefore, we only performed a hyperparamter tuning on it.
-- Out of curiosity, we also developed a CNN (deep learning model) to see how well it would perform
+- Out of curiosity, we also developed a CNN (deep learning model) to see how well it would perform. Its performance was 94.6%
 
 ---
 ## Results
-- The Random Forest Classifier perofrmed (95%) slightly better the CNN (94.6%)
+- The Random Forest Classifier perofrmed (95.0%) slightly better the CNN Classifier (94.6%)
+- The results analysis was focused on the best classifier (Random Forest)
 
 ### Confusion Matrix
 ![RF Confusion Matrix](images/rf_confusion_matrix.png)
