@@ -11,7 +11,7 @@ This project aims to classify musical chords using various machine learning mode
 
 ---
 ## Dataset
-The dataset consist of major and minor chords stored as audio files 
+The dataset is imbalanced and consist of two classes, major and minor chords. They stored as audio files 
 ([Download Dataset](https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification/data))
 
 ---
@@ -39,9 +39,17 @@ The dataset consist of major and minor chords stored as audio files
 ### Confusion Matrix
 ![RF Confusion Matrix](images/rf_confusion_matrix.png)
 
+- Precision for Class 1: 96.0%    | Precision for Class 2: 94.4%
+- Recall for Class 1: 96.0%       | Recall for Class 2: 94.4%
+- F1 Score for Class 1: 96.0%     | F1 Score for Class 2: 94.4%
+
+- Overall, the model performs well with high precision, recall, and F1 scores for both classes. It shows a good balance between precision and recall, indicating that the model is effective at classifying both classes with minimal misclassifications.
+
 ---
 ### ROC
 ![RF Percision Recall Curves](images/rf_percision_recall_curves.png)
+
+- The Precision-Recall AUC is 0.99, which is very high. This indicates that the model has excellent performance, especially in distinguishing between the two classes.
 
 ---
 ## Setup and Installation
