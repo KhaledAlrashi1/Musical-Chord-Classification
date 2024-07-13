@@ -6,7 +6,7 @@
 This project aims to classify musical chords using various machine learning models, including a Convolutional Neural Network (CNN). The dataset consists of features extracted from audio files, representing different musical chords.
 
 --- 
-## Specttogram Analysis of a Signal
+## Spectogram Analysis of a Signal
 ![Spectogram Analysis](images/spectogram_analysis.png)
 
 ---
